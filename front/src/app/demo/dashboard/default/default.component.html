@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-xl-12 col-md-10">
+        <app-card cardTitle="Boxeurs" cardClass="Recent-Users" blockClass="px-0 py-3" [options]="false">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <tbody>
+                        <tr class="read" *ngFor="let boxeur of boxeurs">
+                            <td>
+                                <img *ngIf="boxeur.sexe=='M'" class="rounded-circle" style="width:40px;" src="assets/images/user/avatar-2.jpg" alt="activity-user">
+                                <img *ngIf="boxeur.sexe=='F'" class="rounded-circle" style="width:40px;" src="assets/images/user/avatar-1.jpg" alt="activity-user">
+                            </td>
+                            <td>
+                                <h6 class="mb-1">{{ boxeur.prenom }} {{ boxeur.nom}}</h6>
+                                <!--<p class="m-0">Compétiteur</p>-->
+                            </td>
+                            <td>
+                                <h6 class="text-muted">
+                                    <i class="fas fa-circle text-c-green f-10 m-r-15"></i>
+                                    <span *ngIf="boxeur.competiteur">Compétiteur</span>
+                                    <span *ngIf="!boxeur.competiteur">Loisir</span>
+                                </h6>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </app-card>
+    </div>
+</div>

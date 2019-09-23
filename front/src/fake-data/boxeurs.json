@@ -1,0 +1,206 @@
+[{
+    "nom": "P",
+    "prenom": "Herve",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "G",
+    "prenom": "Nathalie",
+    "sexe": "F",
+    "competiteur": true
+}, {
+    "nom": "B",
+    "prenom": "Remy",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "P",
+    "prenom": "Simon",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "?",
+    "prenom": "Arthur",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "V",
+    "prenom": "D",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "W",
+    "prenom": "Cyril",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "L",
+    "prenom": "Martin",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "T",
+    "prenom": "Sylvain",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "L",
+    "prenom": "Cassandra",
+    "sexe": "F",
+    "competiteur": true
+}, {
+    "nom": "H",
+    "prenom": "Adrien",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "G",
+    "prenom": "Martin",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "B",
+    "prenom": "Hugo",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "J",
+    "prenom": "Bastien",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "M",
+    "prenom": "Sowen",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "L",
+    "prenom": "Claire",
+    "sexe": "F",
+    "competiteur": true
+}, {
+    "nom": "L",
+    "prenom": "Xavier",
+    "sexe": "M",
+    "competiteur": true
+}, {
+    "nom": "B",
+    "prenom": "Tanguy",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "D",
+    "prenom": "Erwan",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "B",
+    "prenom": "Hugo",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "R",
+    "prenom": "Gwladys",
+    "sexe": "F",
+    "competiteur": false
+}, {
+    "nom": "M",
+    "prenom": "Luane",
+    "sexe": "F",
+    "competiteur": false
+}, {
+    "nom": "M",
+    "prenom": "Noé",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "L",
+    "prenom": "Théo",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "O",
+    "prenom": "Imad",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "V",
+    "prenom": "Louis",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "R",
+    "prenom": "Christophe",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "D",
+    "prenom": "Julien",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "F",
+    "prenom": "Olivier",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "F",
+    "prenom": "Ryan",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "V",
+    "prenom": "Arthur",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "D",
+    "prenom": "Valentin",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "C",
+    "prenom": "Antoine",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "P",
+    "prenom": "Tom",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "P",
+    "prenom": "Simon",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "G",
+    "prenom": "Alessio",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "V",
+    "prenom": "Nathan",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "L",
+    "prenom": "Guillaume",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "B",
+    "prenom": "Alexis",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "S",
+    "prenom": "Theo",
+    "sexe": "M",
+    "competiteur": false
+}, {
+    "nom": "R",
+    "prenom": "Mathis",
+    "sexe": "M",
+    "competiteur": false
+}]
