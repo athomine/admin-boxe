@@ -3,11 +3,20 @@ import { Routes, RouterModule } from '@angular/router';
 import { AdminComponent } from './theme/layout/admin/admin.component';
 import { AuthComponent } from './theme/layout/auth/auth.component';
 import { StatsComponent } from './stats/stats.component';
+import { BoxerComponent } from './demo/pages/boxer/boxer.component';
+import { AuthGuardService } from './guards/auth-guard';
+import { UserRole } from 'src/model/user-info';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'admin',
     component: AdminComponent,
+    canActivate: [ AuthGuardService ],
+    data: {
+      roles: [
+        UserRole.ROLE_ADMIN
+      ]
+    },
     children: [
       {
         path: '',
@@ -25,14 +34,24 @@ const routes: Routes = [
     ]
   },
   {
-    path: '',
+    path: 'auth',
     component: AuthComponent,
     children: [
       {
-        path: 'auth',
+        path: '',
         loadChildren: './demo/pages/authentication/authentication.module#AuthenticationModule'
       }
     ]
+  },
+  {
+    path: 'boxer',
+    component: BoxerComponent,
+    data: {
+      roles: [
+        UserRole.ROLE_FIGHTER
+      ]
+    },
+    canActivate: [ AuthGuardService ]
   }
 ];
 

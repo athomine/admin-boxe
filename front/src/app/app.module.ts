@@ -24,6 +24,7 @@ import {ChatUserListComponent} from './theme/layout/admin/nav-bar/nav-right/chat
 import { FriendComponent } from './theme/layout/admin/nav-bar/nav-right/chat-user-list/friend/friend.component';
 import {ChatMsgComponent} from './theme/layout/admin/nav-bar/nav-right/chat-msg/chat-msg.component';
 import { StatsModule } from './stats/stats.module';
+import { BoxerComponent } from './demo/pages/boxer/boxer.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { StatsModule } from './stats/stats.module';
     NavRightComponent,
     ChatUserListComponent,
     FriendComponent,
-    ChatMsgComponent
+    ChatMsgComponent,
+    BoxerComponent
   ],
   imports: [
     BrowserAnimationsModule,
