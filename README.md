@@ -2,7 +2,7 @@
 
 to launch api : 
 
-you need postgres with a database named : admin-boxe2 and a user : myPostGresUser
+you need postgres with a database named : admin-boxe2 and a user : mypostgresuser
 
 
 cd api/
